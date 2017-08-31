@@ -1,0 +1,49 @@
+= form_for(@member) do |f|
+  - if @member.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@member.errors.count, "error")
+        prohibited this member from being saved:
+      %ul
+        - @member.errors.full_messages.each do |message|
+          %li= message
+  .field
+    = f.label :first_name
+    %br/
+    = f.text_field :first_name
+  .field
+    = f.label :last_name
+    %br/
+    = f.text_field :last_name
+  .field
+    = f.label :email
+    %br/
+    = f.text_field :email
+  .field
+    = f.label :area
+    %br/
+    = f.text_field :area
+  .field
+    = f.label :job
+    (Math, Biology, Physics, Letters...)
+    %br/
+    = f.text_field :job
+  .field
+    = f.label :birthday
+    %br/
+    // = f.date_select :birthday
+    = f.date_select :birthday, {order: [:month, :day, :year], prompt: { day: 'Day', month: 'Month', year: 'Year' }, start_year: Date.today.year - 18, end_year: Date.today.year - 100}, {required: true}
+
+    %hr
+  .field
+    = f.label :arrive
+    %i.fa.fa-plane.fa-rotate-90{"aria-hidden" => "true"}
+    %br/
+    = f.date_select :arrive, {order: [:month, :day, :year], prompt: { day: 'Day', month: 'Month', year: 'Year' }, start_year: Date.today.year - 18, end_year: Date.today.year - 100}, {required: true}
+  .field
+    = f.label :depart
+    %i.fa.fa-plane{"aria-hidden" => "true"}
+    %br/
+    = f.date_select :depart, {order: [:month, :day, :year], prompt: { day: 'Day', month: 'Month', year: 'Year' }, start_year: Date.today.year - 18, end_year: Date.today.year - 100}, {required: true}
+  .actions
+    = f.submit I18n.t 'sign_up'

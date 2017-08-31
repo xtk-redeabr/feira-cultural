@@ -1,0 +1,26 @@
+    
+.col-md-7
+  .content
+    %h1.title= I18n.t 'event_title'
+    %hr
+    %h3= I18n.t 'event_subtitle'
+    %hr
+    %p= I18n.t 'event_content_1'
+    %p= I18n.t 'event_content_2'
+    %p= I18n.t 'event_content_3'
+    %hr
+    %h5= I18n.t 'event_details'
+    .video
+      %iframe{:allowfullscreen => "", :frameborder => "0", :height => "315", :src => "https://www.youtube.com/embed/-ErWgBhdPvE?rel=0&controls=0&showinfo=0", :width => "560"}
+    %a= link_to 'Framingham State University', 'https://framingham.edu'
+    
+.col-md-5
+  .days
+    %h1.days_number
+      = (Date.new(2017, 11, 3) - Date.today).to_s.split('/')[0]
+    %a.days_description
+      days up to event
+  %br
+  %h1= I18n.t 'new_member'
+  = render 'form'
+  // = link_to 'Back', members_path
