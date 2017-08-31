@@ -1,0 +1,15 @@
+{
+  "name": "feira-cultural",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
