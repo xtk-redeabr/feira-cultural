@@ -16,7 +16,7 @@ Cloud9 account
 A step by step series of examples that tell you have to get a development env running
 
 Start PostgreSQL
-````
+```
 sudo service postgresql start
 ```
 
