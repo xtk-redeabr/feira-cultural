@@ -32,3 +32,24 @@ en:
   signed_up_message_1: 'You have successfully registered.'
   signed_up_message_2: 'Soon you will receive an email with more details from the director Ilma Paixão.'
   
+  act_name_1: 'Welcome on Main Salon'
+  act_desc_1: 'Welcome to every members who will enjoy the festival'
+  act_time_1: '9:00AM'
+  act_location_1: 'Main Salon'
+  
+  act_name_2: 'Framingham State University Presentation'
+  act_desc_2: 'Mrs. ABC will say hello for every members in the East Salon'
+  act_time_2: '10:00AM'
+  act_location_2: 'East Salon'
+  
+  act_name_3: 'Music Performance'
+  act_desc_3: 'The musicians will perform 5 songs to show Brazilian culture.'
+  act_time_3: '3:00PM'
+  act_location_3: 'North Salon'
+  
+  about_p1: 'Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt.'
+  about_p2: 'Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.'
+  about_p3: 'Nulla porttitor accumsan tincidunt. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat.'
+  about_p4: 'Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
+  about_p5: 'Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit.'
+  

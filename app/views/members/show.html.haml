@@ -1,32 +1,28 @@
 %p#notice= notice
+%hr
+.row
+  %h1= I18n.t 'signed_up_message_1'
+  %h2= I18n.t 'signed_up_message_2'
 
-%h1= I18n.t 'signed_up_message_1'
-%h2= I18n.t 'signed_up_message_2'
-
-%p
+%p.member_data
   %strong First name:
   = @member.first_name
-%p
+  %br
   %strong Last name:
   = @member.last_name
-%p
+  %br
   %strong Email:
   = @member.email
-%p
+  %br
   %strong Area:
   = @member.area
-%p
+  %br
   %strong Job:
   = @member.job
-%p
+  %br
   %strong Birthday:
   = @member.birthday
-%p
-  %strong Arrive:
-  = @member.arrive
-%p
-  %strong Depart:
-  = @member.depart
+
 %hr
 //= link_to 'Edit', edit_member_path(@member)
 |

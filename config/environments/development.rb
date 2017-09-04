@@ -38,4 +38,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  #Code to start
+  #system('echo "Starting PostgreSQL on Developed environment on Cloud9."')
+  #system('sudo service postgresql start')
 end

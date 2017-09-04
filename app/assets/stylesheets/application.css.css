@@ -1,0 +1,54 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+body {
+  background-image: url(asset_path("framinham_university2.jpg"));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto 100%; }
+
+.container {
+  color: #557323;
+  font-family: 'Playfair Display', serif; }
+
+li a {
+  font-size: 14pt; }
+
+.title, .days_number {
+  font-family: 'Lobster', cursive; }
+
+label {
+  font-size: 14pt; }
+
+p {
+  line-height: 2em; }
+
+h3 {
+  line-height: 40em; }
+
+.days {
+  text-align: center;
+  border-bottom: 5px solid #ddd; }
+
+.days_number {
+  font-size: 70pt; }
+
+.new_member {
+  border-left: 5px solid #ddd;
+  padding: 5px;
+  padding-left: 15px; }
+
+input[type=text], select {
+  border-radius: 10px;
+  border: 0px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  height: 60px;
+  padding: 8px;
+  background: #fafafa; }
+
+input[type=text] {
+  width: 100%; }
+
+/*# sourceMappingURL=application.css.css.map */

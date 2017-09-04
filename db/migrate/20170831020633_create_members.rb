@@ -6,9 +6,8 @@ class CreateMembers < ActiveRecord::Migration
       t.string :email
       t.string :area
       t.string :job
-      t.date :birthday
-      t.date :arrive
-      t.date :depart
+      t.string :birthday
+      
 
       t.timestamps null: false
     end

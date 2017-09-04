@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
   get 'thank_you/index'
-
+  get 'activity/index'
   get 'welcome/index'
-
+  get 'about/index'
+  get 'contact/index'
+  
   resources :members
   
   root 'members#new'

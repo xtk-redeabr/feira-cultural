@@ -9,8 +9,8 @@
       %th Area
       %th Job
       %th Birthday
-      %th Arrive
-      %th Depart
+      // %th Arrive
+      // %th Depart
       %th{:colspan => "3"}
   %tbody
     - @members.each do |member|
@@ -21,8 +21,8 @@
         %td= member.area
         %td= member.job
         %td= member.birthday
-        %td= member.arrive
-        %td= member.depart
+        // %td= member.arrive
+        // %td= member.depart
         //%td= link_to 'Show', member
         //%td= link_to 'Edit', edit_member_path(member)
         //%td= link_to 'Destroy', member, method: :delete, data: { confirm: 'Are you sure?' }
