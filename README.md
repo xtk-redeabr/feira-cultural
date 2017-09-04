@@ -1,24 +1,47 @@
+# Feira Cultural Project
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+This software was created to provide information about the "The best of Brasil" event, and a platform to get information of members.
 
+## Getting Started
 
-Welcome to your Rails project on Cloud9 IDE!
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-To get started, just do the following:
+### Prerequisites
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://HOSTNAME/).
-
-Happy coding!
-The Cloud9 IDE team
+Cloud9 account
 
 
-## Support & Documentation
+### Installing
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+A step by step series of examples that tell you have to get a development env running
+
+Start PostgreSQL
+```
+sudo service postgresql start
+```
+
+Run bundle
+```
+bundle install
+```
+
+Create database
+```
+rake db:migrate
+```
+
+
+## Deployment
+
+Don't forget to run ```rake db:migrate``` on Heroku.
+
+## Authors
+
+* **Rede ABR** - ** - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This is a private software. It's not allowed to be used or copied for others.
+All rights reserved.
