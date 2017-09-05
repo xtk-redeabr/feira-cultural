@@ -6,7 +6,8 @@
       %th Location
   %tbody
     %tr
-      %td= I18n.t 'day1'
+      %td{:colspan => 3}
+        %strong= I18n.t 'day1'
     %tr
       %td= I18n.t 'act1_time'
       %td= I18n.t 'act1_name'
@@ -24,11 +25,12 @@
       %td= I18n.t 'act4_name'
       %td= I18n.t 'act4_location'
     %tr
-      %td= I18n.t 'day2'
-    %tr
       %td= I18n.t 'act5_time'
       %td= I18n.t 'act5_name'
       %td= I18n.t 'act5_location'
+    %tr
+      %td{:colspan => 3}
+        %strong= I18n.t 'day2'
     %tr
       %td= I18n.t 'act6_time'
       %td= I18n.t 'act6_name'
@@ -37,3 +39,7 @@
       %td= I18n.t 'act7_time'
       %td= I18n.t 'act7_name'
       %td= I18n.t 'act7_location'
+    %tr
+      %td= I18n.t 'act8_time'
+      %td= I18n.t 'act8_name'
+      %td= I18n.t 'act8_location'

@@ -66,5 +66,39 @@ en:
   inst_desc_4: 'Univerdidade Federal de Brasília'
   
   
+  day1: 'November 3rd, 2017'
+  
+  act1_time: '9:00AM'
+  act1_name: 'Welcome'
+  act1_location: 'Main Salon'
+  
+  act2_time: '11:00AM'
+  act2_name: 'Welcome'
+  act2_location: 'Main Salon'
+  
+  act3_time: '1:00PM'
+  act3_name: 'Welcome'
+  act3_location: 'Main Salon'
+  
+  act4_time: '3:00AM'
+  act4_name: 'Welcome'
+  act4_location: 'Main Salon'
+  
+  act5_time: '4:00PM'
+  act5_name: 'Welcome'
+  act5_location: 'Main Salon'
   
   
+  day2: 'November 4th, 2017'
+  
+  act6_time: '10:00AM'
+  act6_name: 'Welcome'
+  act6_location: 'Main Salon'
+  
+  act7_time: '2:30PM'
+  act7_name: 'Welcome'
+  act7_location: 'Main Salon'
+  
+  act8_time: '6:00PM'
+  act8_name: 'Welcome'
+  act8_location: 'Main Salon'

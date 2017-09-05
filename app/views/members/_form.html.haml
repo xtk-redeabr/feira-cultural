@@ -8,6 +8,10 @@
         - @member.errors.full_messages.each do |message|
           %li= message
   .field
+    = f.label 'ID: '
+    %br/
+    = f.text_field :id
+  .field
     = f.label :first_name
     %br/
     = f.text_field :first_name
@@ -23,22 +27,21 @@
     = f.label :area
     %br/
     = f.select(:area) do
-      - [['Accounting'], ['Aquaculture'], ['Behavioral Science'], ['Biology'], ['Biotechnology and Good Manufacturing Practice'], ['Business'], ['Business Management'], ['Certified Nursing Assistant'], ['Computer Science'], ['Computer Science- Networking'], ['Computer Science- Programming'], ['Corrections Administration'], ['Criminal Justice'], ['Criminal Justice- Law Enforcement'], ['Custom Wellness (Adult Fitness Program)'], ['Customer Service'], ['Early Childhood Education'], ['Elementary Education'], ['Engineering Technology'], ['English'], ['Entrepreneurship'], ['Event Planning'], ['Exercise Science &amp; Personal Training'], ['Fine Arts: Drama'], ['Fine Arts: Music'], ['Fine Arts: Visual Arts'], ['Game Development'], ['General Studies'], ['Gerontology'], ['Healthcare Administration'], ['Healthcare Administration- Medical Billing'], ['History/Government'], ['Home Health Aide'], ['Human Resources'], ['Human Services'], ['Humanities'], ['Insurance Career'], ['Linux System Administration'], ['Mathematics'], ['Medical Laboratory Technician'], ['Natural Science'], ['Natural Science-Nursing Track'], ['Natural Science: Engineering'], ['Nursing'], ['Nursing - LPN to RN'], ['Online Professional Development'], ['Paralegal Studies'], ['Phlebotomy'], ['Physical Therapist Assistant'], ['Planning Fundraising &amp; Special Events for Nonprofit Organizations'], ['Practical Nursing'], ['Psychology'], ['Security Administration'], ['Security Management'], ['Social Sciences'], ['Sociology'], ['Substance Abuse'], ['Surgical Technology'], ['TEAS Test Prep'], ['Web and Mobile Development']].each do |c|
+      - [['Accounting'], ['Aquaculture'], ['Behavioral Science'], ['Biology'], ['Biotechnology and Good Manufacturing Practice'], ['Business'], ['Business Management'], ['Certified Nursing Assistant'], ['Computer Science'], ['Computer Science- Networking'], ['Computer Science- Programming'], ['Corrections Administration'], ['Criminal Justice'], ['Criminal Justice- Law Enforcement'], ['Custom Wellness (Adult Fitness Program)'], ['Customer Service'], ['Early Childhood Education'], ['Elementary Education'], ['Engineering Technology'], ['English'], ['Entrepreneurship'], ['Event Planning'], ['Exercise Science &amp; Personal Training'], ['Fine Arts: Drama'], ['Fine Arts: Music'], ['Fine Arts: Visual Arts'], ['Game Development'], ['General Studies'], ['Gerontology'], ['Healthcare Administration'], ['Healthcare Administration- Medical Billing'], ['History/Government'], ['Home Health Aide'], ['Human Resources'], ['Human Services'], ['Humanities'], ['Insurance Career'], ['Linux System Administration'], ['Mathematics'], ['Medical Laboratory Technician'], ['Natural Science'], ['Natural Science-Nursing Track'], ['Natural Science: Engineering'], ['Nursing'], ['Nursing - LPN to RN'], ['Online Professional Development'], ['Paralegal Studies'], ['Phlebotomy'], ['Physical Therapist Assistant'], ['Planning Fundraising'], ['Practical Nursing'], ['Psychology'], ['Security Administration'], ['Security Management'], ['Social Sciences'], ['Sociology'], ['Substance Abuse'], ['Surgical Technology'], ['TEAS Test Prep'], ['Web and Mobile Development']].each do |c|
         = content_tag(:option, c.first, value: c.last)
 
   .field
-    = f.label :job
+    = f.label 'University'
     %br/
     = f.text_field :job
   .field
     = f.label 'Age Range'
     %br/
-    // = f.date_select :birthday
-    //= select_tag(:member, :birthday, [ ['<20',1], ['21-30',2], ['31-40',3], ['41-50',4], ['>50',5] ] )
-    = f.select(:birthday) do
+    = f.select(:birthday, html:{class: 'age_field'}) do
       - [['<20'], ['20~29'], ['30~39'], ['40~49'], ['50~59'], ['>60']].each do |c|
         = content_tag(:option, c.first, value: c.last)
 
 
-  .actions
+  .actions.btn.btn-primary
     = f.submit I18n.t 'sign_up'
+

@@ -6,7 +6,6 @@ gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 # gem 'font-awesome-sass'
 gem 'pg'
-gem 'mail_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'

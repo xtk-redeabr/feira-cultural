@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-  color: #557323;
+  color: #333333;
   font-family: 'Playfair Display', serif;
 }
 li a {
@@ -54,4 +54,6 @@ input[type=text], select{
 }
 input[type=text]{
   width: 100%;
+  font-size: 16pt;
+  text-align: center;
 }

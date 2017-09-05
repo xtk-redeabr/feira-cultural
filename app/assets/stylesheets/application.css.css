@@ -10,7 +10,7 @@ body {
   background-size: auto 100%; }
 
 .container {
-  color: #557323;
+  color: #444;
   font-family: 'Playfair Display', serif; }
 
 li a {
@@ -50,5 +50,14 @@ input[type=text], select {
 
 input[type=text] {
   width: 100%; }
+
+input[type=submit] {
+  border-radius: 10px;
+  background: rgba(0,0,0,0);
+  border: 0px;
+  font-size: 20pt;
+  padding: 8px 50px 8px 50px; }
+  
+
 
 /*# sourceMappingURL=application.css.css.map */
