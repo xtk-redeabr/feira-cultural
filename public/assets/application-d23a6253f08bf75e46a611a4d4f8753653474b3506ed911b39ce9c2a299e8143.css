@@ -1,0 +1,225 @@
+/* line 4, /home/ubuntu/workspace/app/assets/stylesheets/about.scss */
+.about {
+  font-size: 16pt;
+}
+/*
+
+
+ */
+/* line 7, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+body {
+  background-image: url("/assets/framinham_university2-3e7a9a1226c2ec2eed43b78674695fb808d387a04d95b2d0018a3fe1bba482af.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+/* line 15, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+.container {
+  color: #333333;
+  font-family: 'Playfair Display', serif;
+}
+
+/* line 19, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+li a {
+  font-size: 14pt;
+}
+
+/* line 22, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+.title, .days_number {
+  font-family: 'Lobster', cursive;
+}
+
+/* line 25, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+label {
+  font-size: 14pt;
+}
+
+/* line 28, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+p {
+  line-height: 2em;
+}
+
+/* line 31, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+h3 {
+  line-height: 40em;
+}
+
+/* line 34, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+.days {
+  text-align: center;
+  border-bottom: 5px solid #ddd;
+}
+
+/* line 38, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+.days_number {
+  font-size: 70pt;
+}
+
+/* line 42, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+.new_member {
+  border-left: 5px solid #ddd;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+/* line 48, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+input[type=text], select {
+  border-radius: 10px;
+  border: 0px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  height: 60px;
+  padding: 8px;
+  background: #fafafa;
+}
+
+/* line 56, /home/ubuntu/workspace/app/assets/stylesheets/application.css.scss */
+input[type=text] {
+  width: 100%;
+  font-size: 16pt;
+  text-align: center;
+}
+/* line 5, /home/ubuntu/workspace/app/assets/stylesheets/members.scss */
+.member_data {
+  font-size: 20pt;
+}
+/* line 1, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
+
+
+ */
+
+body {
+  background-image: url(asset_path("framinham_university2.jpg"));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto 100%; }
+
+.container {
+  color: #444;
+  font-family: 'Playfair Display', serif; }
+
+li a {
+  font-size: 14pt; }
+
+.title, .days_number {
+  font-family: 'Lobster', cursive; }
+
+label {
+  font-size: 14pt; }
+
+p {
+  line-height: 2em; }
+
+h3 {
+  line-height: 40em; }
+
+.days {
+  text-align: center;
+  border-bottom: 5px solid #ddd; }
+
+.days_number {
+  font-size: 70pt; }
+
+.new_member {
+  border-left: 5px solid #ddd;
+  padding: 5px;
+  padding-left: 15px; }
+
+input[type=text], select {
+  border-radius: 10px;
+  border: 0px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  height: 60px;
+  padding: 8px;
+  background: #fafafa; }
+
+input[type=text] {
+  width: 100%; }
+
+input[type=submit] {
+  border-radius: 10px;
+  background: rgba(0,0,0,0);
+  border: 0px;
+  font-size: 20pt;
+  padding: 8px 50px 8px 50px; }
