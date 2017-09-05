@@ -61,6 +61,9 @@
     %a= link_to 'Framingham State University', 'https://framingham.edu'
     
 .col-md-5
+  
+  %img{:alt => "", :height => "auto", :width => "300px", :src => asset_path('aqui_tem_brasil.png'), :href => root_path}
+  
   .days
     %h1.days_number
       = (Date.new(2017, 11, 3) - Date.today).to_s.split('/')[0]

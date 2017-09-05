@@ -60,7 +60,7 @@
             %span.icon-bar
             %span.icon-bar
           %a.navbar-brand
-            %img{:alt => "", :height => "59", :width => "90", :src => asset_path('aqui_tem_brasil.png'), :href => root_path}
+            %img{:alt => "", :height => "25", :width => "25", :src => asset_path('aqui_tem_brasil-logo.png'), :href => root_path}
         #myNavbar.collapse.navbar-collapse
           %ul.nav.navbar-nav
             %li.active
@@ -73,11 +73,11 @@
               %a{:href => contact_index_path} Contact
             %li
               %a{:href => about_index_path} About Us
-          // %ul.nav.navbar-nav.navbar-right
-          //   %li
-          //     %a{:href => "#"}
+          %ul.nav.navbar-nav.navbar-right
+            %li
+              %a{:href => "http://www.redeabr.com"}
+                REDE ABR
           //       %span.glyphicon.glyphicon-log-in
-          //       Login
     
     #myCarousel.carousel.slide{"data-ride" => "carousel"}
       / Indicators
@@ -127,6 +127,51 @@
     
 
 %footer.container-fluid.text-center
+
+  %h1 SPONSORS
+  
+  
+  #sponsros.carousel.slide{"data-ride" => "carousel"}
+    / Indicators
+    %ol.carousel-indicators
+      %li.active{"data-slide-to" => "0", "data-target" => "#sponsros"}
+      %li{"data-slide-to" => "1", "data-target" => "#sponsros"}
+      %li{"data-slide-to" => "2", "data-target" => "#sponsros"}
+      %li{"data-slide-to" => "3", "data-target" => "#sponsros"}
+    / Wrapper for slides
+    .carousel-inner{:role => "listbox"}
+      .item.active
+        %img{:alt => "Image", :src => "https://placehold.it/1200x100?text=IMAGE"}/
+        .carousel-caption
+          %h3= I18n.t 'act_name_1'
+          %p= I18n.t 'act_desc_1'
+          %p= I18n.t 'act_time_1'
+          %p= I18n.t 'act_location_1'
+      .item
+        %img{:alt => "Image", :src => "https://placehold.it/1200x100?text=Another Image Maybe"}/
+        .carousel-caption
+          %h3= I18n.t 'act_name_2'
+          %p= I18n.t 'act_desc_2'
+          %p= I18n.t 'act_time_2'
+          %p= I18n.t 'act_location_2'
+      .item
+        %img{:alt => "Image", :src => "https://placehold.it/1200x100?text=Another Image Maybe"}/
+        .carousel-caption
+          %h3= I18n.t 'act_name_3'
+          %p= I18n.t 'act_desc_3'
+          %p= I18n.t 'act_time_3'
+          %p= I18n.t 'act_location_3'
+          
+      
+    / Left and right controls
+    %a.left.carousel-control{"data-slide" => "prev", :href => "#sponsros", :role => "button"}
+      %span.glyphicon.glyphicon-chevron-left{"aria-hidden" => "true"}
+      %span.sr-only Previous
+    %a.right.carousel-control{"data-slide" => "next", :href => "#sponsros", :role => "button"}
+      %span.glyphicon.glyphicon-chevron-right{"aria-hidden" => "true"}
+      %span.sr-only Next
+  
+
   .card.text-center
     .card-header
       Rede ABR - Langer Broadcasting Group LLC

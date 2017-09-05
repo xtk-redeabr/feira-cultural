@@ -58,6 +58,8 @@ input[type=submit] {
   font-size: 20pt;
   padding: 8px 50px 8px 50px; }
   
-
+.id-field {
+  font-size: 60pt;
+}
 
 /*# sourceMappingURL=application.css.css.map */

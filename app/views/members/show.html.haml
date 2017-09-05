@@ -5,6 +5,9 @@
   %h2= I18n.t 'signed_up_message_2'
 
 %p.member_data
+  %strong.id-field ID:
+  %strong.id-field= @member.id
+  %br
   %strong First name:
   = @member.first_name
   %br
