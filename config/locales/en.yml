@@ -30,7 +30,7 @@ en:
   event_details: 'The event is expected to run from November 3-5, 2017 in Framingham, MA.'
   sign_up: 'Sign Up'
   signed_up_message_1: 'You have successfully registered.'
-  signed_up_message_2: 'Soon you will receive an email with more details from the director Ilma Paixão.'
+  signed_up_message_2: 'Soon you will receive an email with more details from the director.'
   
   act_name_1: 'Welcome on Main Salon'
   act_desc_1: 'Welcome to every members who will enjoy the festival'
@@ -52,4 +52,19 @@ en:
   about_p3: 'Nulla porttitor accumsan tincidunt. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat.'
   about_p4: 'Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
   about_p5: 'Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit.'
+  
+  inst_name_1: 'UFRJ'
+  inst_desc_1: 'Univerdidade Federal do Rio de Janeiro'
+  
+  inst_name_2: 'UNISINOS'
+  inst_desc_2: 'Univerdidade Federal do Rio Grande do Sul'
+  
+  inst_name_3: 'UFES'
+  inst_desc_3: 'Univerdidade Federal do Espirito Santo'
+  
+  inst_name_4: 'InB'
+  inst_desc_4: 'Univerdidade Federal de Brasília'
+  
+  
+  
   

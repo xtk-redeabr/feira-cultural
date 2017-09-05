@@ -73,11 +73,12 @@
               %a{:href => contact_index_path} Contact
             %li
               %a{:href => about_index_path} About Us
-          %ul.nav.navbar-nav.navbar-right
-            %li
-              %a{:href => "#"}
-                %span.glyphicon.glyphicon-log-in
-                Login
+          // %ul.nav.navbar-nav.navbar-right
+          //   %li
+          //     %a{:href => "#"}
+          //       %span.glyphicon.glyphicon-log-in
+          //       Login
+    
     #myCarousel.carousel.slide{"data-ride" => "carousel"}
       / Indicators
       %ol.carousel-indicators
@@ -88,26 +89,29 @@
       / Wrapper for slides
       .carousel-inner{:role => "listbox"}
         .item.active
-          %img{:alt => "Image", :src => "https://placehold.it/1200x400?text=IMAGE"}/
+          %img{:alt => "Image", :src => asset_path('ufrj.png'), :height => '100px'}/
           .carousel-caption
-            %h3= I18n.t 'act_name_1'
-            %p= I18n.t 'act_desc_1'
-            %p= I18n.t 'act_time_1'
-            %p= I18n.t 'act_location_1'
+            %h3= I18n.t 'inst_name_1'
+            %p= I18n.t 'inst_desc_1'
+            
         .item
-          %img{:alt => "Image", :src => "https://placehold.it/1200x400?text=Another Image Maybe"}/
+          %img{:alt => "Image", :src => asset_path('unisinos.png')}/
           .carousel-caption
-            %h3= I18n.t 'act_name_2'
-            %p= I18n.t 'act_desc_2'
-            %p= I18n.t 'act_time_2'
-            %p= I18n.t 'act_location_2'
+            %h3= I18n.t 'inst_name_2'
+            %p= I18n.t 'inst_desc_2'
+            
         .item
-          %img{:alt => "Image", :src => "https://placehold.it/1200x400?text=Another Image Maybe"}/
+          %img{:alt => "Image", :src => asset_path('ufes.png')}/
           .carousel-caption
-            %h3= I18n.t 'act_name_3'
-            %p= I18n.t 'act_desc_3'
-            %p= I18n.t 'act_time_3'
-            %p= I18n.t 'act_location_3'
+            %h3= I18n.t 'inst_name_3'
+            %p= I18n.t 'inst_desc_3'
+            
+        .item
+          %img{:alt => "Image", :src => asset_path('unb.png')}/
+          .carousel-caption
+            %h3= I18n.t 'inst_name_4'
+            %p= I18n.t 'inst_desc_4'
+        
             
         
       / Left and right controls
@@ -121,7 +125,6 @@
     .container.text-center
       = yield
     
-// %img.img-responsive{:alt => "Image", :src => "https://placehold.it/150x80?text=IMAGE", :style => "width:100%"}/
 
 %footer.container-fluid.text-center
   .card.text-center
