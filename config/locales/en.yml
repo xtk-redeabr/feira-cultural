@@ -22,7 +22,7 @@
 en:
   hello: 'Hello world'
   new_member: 'Sign Up'
-  event_title: 'Best of Brasil Festival'
+  event_title: 'The Best of Brasil Festival'
   event_subtitle: 'The culture, in all of its art forms, of love and of thought, throughout the ages has allowed man to be less enslaved.'
   event_content_1: 'The object of this project is to raise awareness of the growing impact within the United States of the Brazilian culture, while concomitantly demonstrating American culture for an exchange of ideas among American and Brazilian students and professors, both native-born and immigrant.'
   event_content_2: 'The Cultural Fair is a prime space to present aspects of Brazilian culture such as: Brazilian Folk Festivals (including dances and costumes), regional specialty dishes, religious culture and all other types of cultural demonstrations, further enhancing the appreciation of local attire and elevating same to the level of consciousness to lead to meaningful conversation on par with that of American culture.'
@@ -30,7 +30,7 @@ en:
   event_details: 'The event is expected to run from November 3-5, 2017 in Framingham, MA.'
   sign_up: 'Sign Up'
   signed_up_message_1: 'You have successfully registered.'
-  signed_up_message_2: 'Soon you will receive an email with more details from the director.'
+  signed_up_message_2: 'Soon you will receive an email with more details from the director Ilma Paixão.'
   
   act_name_1: 'Welcome on Main Salon'
   act_desc_1: 'Welcome to every members who will enjoy the festival'
@@ -53,52 +53,3 @@ en:
   about_p4: 'Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
   about_p5: 'Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit.'
   
-  inst_name_1: 'UFRJ'
-  inst_desc_1: 'Univerdidade Federal do Rio de Janeiro'
-  
-  inst_name_2: 'UNISINOS'
-  inst_desc_2: 'Univerdidade Federal do Rio Grande do Sul'
-  
-  inst_name_3: 'UFES'
-  inst_desc_3: 'Univerdidade Federal do Espirito Santo'
-  
-  inst_name_4: 'InB'
-  inst_desc_4: 'Univerdidade Federal de Brasília'
-  
-  
-  day1: 'November 3rd, 2017'
-  
-  act1_time: '9:00AM'
-  act1_name: 'Welcome'
-  act1_location: 'Main Salon'
-  
-  act2_time: '11:00AM'
-  act2_name: 'Welcome'
-  act2_location: 'Main Salon'
-  
-  act3_time: '1:00PM'
-  act3_name: 'Welcome'
-  act3_location: 'Main Salon'
-  
-  act4_time: '3:00AM'
-  act4_name: 'Welcome'
-  act4_location: 'Main Salon'
-  
-  act5_time: '4:00PM'
-  act5_name: 'Welcome'
-  act5_location: 'Main Salon'
-  
-  
-  day2: 'November 4th, 2017'
-  
-  act6_time: '10:00AM'
-  act6_name: 'Welcome'
-  act6_location: 'Main Salon'
-  
-  act7_time: '2:30PM'
-  act7_name: 'Welcome'
-  act7_location: 'Main Salon'
-  
-  act8_time: '6:00PM'
-  act8_name: 'Welcome'
-  act8_location: 'Main Salon'
