@@ -32,24 +32,100 @@ en:
   signed_up_message_1: 'You have successfully registered.'
   signed_up_message_2: 'Soon you will receive an email with more details from the director.'
   
-  act_name_1: 'Welcome on Main Salon'
-  act_desc_1: 'Welcome to every members who will enjoy the festival'
-  act_time_1: '9:00AM'
-  act_location_1: 'Main Salon'
   
-  act_name_2: 'Framingham State University Presentation'
-  act_desc_2: 'Mrs. ABC will say hello for every members in the East Salon'
-  act_time_2: '10:00AM'
-  act_location_2: 'East Salon'
+  act_first_day_date: 'Nov 2nd, 2017'
+  act_first_day_desc: 'Representantes de cada estado brasileiro serão acompanhados por um cidadão do estado de Massachusetts.'
   
-  act_name_3: 'Music Performance'
-  act_desc_3: 'The musicians will perform 5 songs to show Brazilian culture.'
-  act_time_3: '3:00PM'
-  act_location_3: 'North Salon'
+  act_day_1: 'Nov 2nd, 2017 - Thursday'
+  act_desc_1: 'Visita à Casa do Estado'
+  act_time_1: '9:00AM ~ 12:00PM'
+  act_location_1: 'Room'
   
-  about_p1: 'Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt.'
-  about_p2: 'Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.'
-  about_p3: 'Nulla porttitor accumsan tincidunt. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat.'
-  about_p4: 'Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
-  about_p5: 'Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit.'
+  act_day_2: 'Nov 2nd, 2017 - Thursday'
+  act_desc_2: 'Visita ao Mercado Quincy'
+  act_time_2: '12:00PM ~ 3:00PM'
+  act_location_2: 'Room'
+  
+  act_day_3: 'Nov 2nd, 2017 - Thursday'
+  act_desc_3: 'Visita ao Museu'
+  act_time_3: '3:00PM ~ 6:00PM'
+  act_location_3: 'Room'
+  
+  act_day_4: 'Nov 2nd, 2017 - Thursday'
+  act_desc_4: 'Reunião e Coffee Break junto ao consulado brasileiro'
+  act_time_4: '7:00PM ~ 9:00PM'
+  act_location_4: 'Room'
+  
+  
+  act_second_day_date: 'Nov 3rd, 2017'
+  act_second_day_desc: 'Representantes de cada estado brasileiro serão acompanhados por um cidadão do estado de Massachusetts.'
+
+  act_day_5: 'Nov 3rd, 2017'
+  act_desc_5: 'Abertura da feira cultural com hinos nacionais de Estados Unidos e Brasil'
+  act_time_5: '9:00AM ~ 9:15AM'
+  act_location_5: 'Room'
+  
+  act_day_6: 'Nov 3rd, 2017'
+  act_desc_6: 'Recepção de autoridades, professores, convidados e estudantes junto à feira cultural'
+  act_time_6: '9:15AM ~ 12:00PM'
+  act_location_6: 'Room'
+  
+  act_day_7: 'Nov 3rd, 2017'
+  act_desc_7: 'Apresentação Musical Brasileira'
+  act_time_7: '12:00AM ~ 13:00PM'
+  act_location_7: 'Room'
+  
+  act_day_8: 'Nov 3rd, 2017'
+  act_desc_8: 'Deslocamento para diferentes restaurantes em Framingham para apreciação da comida e entretenimento regional brasileiro'
+  act_time_8: '13:00AM ~ 17:00PM'
+  act_location_8: 'Room'
+  
+  act_day_9: 'Nov 3rd, 2017'
+  act_desc_9: 'Filme da Universidade - FSU'
+  act_time_9: '6:00PM ~ 9:00PM'
+  act_location_9: 'Room'
+  
+  
+
+  act_thrird_day_date: 'Nov 4th, 2017'
+  act_thrird_day_desc: 'Representantes de cada estado brasileiro serão acompanhados por um cidadão do estado de Massachusetts.'
+  
+  
+  act_day_10: 'Nov 4th, 2017'
+  act_desc_10: 'Apresentação dos seguintes estados brasileiros: Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará.'
+  act_time_10: '9:00AM ~ 1:00PM'
+  act_location_10: 'Room'
+  
+  act_day_11: 'Nov 4th, 2017'
+  act_desc_11: 'Apresentação dos seguintes estados brasileiros: Paraíba, Paraná, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte, Rio Grande do Sul, Rondônia, Roraima, Santa Catarina, São Paulo, Sergipe, Tocantins.'
+  act_time_11: '1:00PM ~ 6:00PM'
+  act_location_11: 'Room'
+  
+  act_day_12: 'Nov 4th, 2017'
+  act_desc_12: 'Cine Social: exibição de documentários - Filmes de curta duração que retratam a experiência de imigrantes brasileiros.'
+  act_time_12: '7:00PM ~ 10:00PM'
+  act_location_12: 'Room'
+  
+  act_day_13: 'Nov 4th, 2017'
+  act_desc_13: 'Workshop em Harvard'
+  act_time_13: '9:00AM ~ 2:00PM'
+  act_location_13: 'Harvard'
+  
+  act_day_14: 'Nov 4th, 2017'
+  act_desc_14: 'Horário livre'
+  act_time_14: '2:00PM ~ 6:00PM'
+  act_location_14: 'Room'
+  
+  act_day_15: 'Nov 4th, 2017'
+  act_desc_15: 'Evento de encerramento '
+  act_time_15: '6:00PM ~ 9:00PM'
+  act_location_15: 'Local a ser confirmado'
+  
+  
+  
+  about_p1: 'A Feira Cultural Brasileira e Americana busca fortalecer a cooperação cultural e a compreensão entre a comunidade não-imigrante (inclusive a acadêmica) e a comunidade brasileira que vive nos Estados Unidos. Esta Feira tem por objetivo mostrar vários aspectos da cultura brasileira (incluindo festivais folclóricos, comidas regionais e demonstrações culturais), demografia e economia, além de promover o envolvimento transcultural.'
+  about_p2: 'Esta Feira tem por objetivo mostrar vários aspectos da cultura brasileira (incluindo festivais folclóricos, comidas regionais e demonstrações culturais), demografia e economia, além de promover o envolvimento transcultural.'
+  about_p3: 'É bem sabido que muitos brasileiros-americanos (incluindo estudantes brasileiros-americanos) têm oportunidades limitadas de experimentar e abraçar a riqueza cultural do Brasil.'
+  about_p4: 'Em muitos casos, eles nem sequer são motivados ou encorajados a falar o idioma português/brasileiro. Diante deste fato, a Feira Cultural é oportuna e socialmente relevante, na medida em que destaca aspectos da cultura brasileira e cria oportunidades para compartilhá-las com estudantes brasileiros que vivem nos Estados Unidos.'
+  about_p5: 'O estado de Massachusetts abriga diversas comunidades tanto imigrantes, quanto não imigrantes, que vivem lado a lado e ainda têm pouca ou nenhuma interação. A Feira Cultural destina-se a familiarizar estas comunidades (de todas as origens) com a cultura, usos e costumes dos brasileiros, além de incentivar o envolvimento destes povos.'
   

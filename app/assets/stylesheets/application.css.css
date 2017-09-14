@@ -3,21 +3,21 @@
  *= require_self
  */
 body {
-  background-image: url(asset_path("framinham_university2.jpg"));
+  background-image: url(asset_path("background.jpg"));
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: auto 100%; }
+  background-size: auto 100%; 
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+h1, div, label { font-family: 'Quicksand', sans-serif !important }
 
 .container {
-  color: #444;
-  font-family: 'Playfair Display', serif; }
+  color: #444;  }
 
 li a {
   font-size: 14pt; }
-
-.title, .days_number {
-  font-family: 'Lobster', cursive; }
 
 label {
   font-size: 14pt; }
