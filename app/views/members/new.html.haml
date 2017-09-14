@@ -17,27 +17,34 @@
       / Wrapper for slides
       .carousel-inner{:role => "listbox"}
         .item.active
-          %img{:alt => "Image", :src => "https://placehold.it/1200x400?text=IMAGE"}/
+          %img{:alt => "Image", :src => asset_path('back-3.jpg')}/
           .carousel-caption
             %h3= I18n.t 'act_name_1'
             %p= I18n.t 'act_desc_1'
             %p= I18n.t 'act_time_1'
             %p= I18n.t 'act_location_1'
         .item
-          %img{:alt => "Image", :src => "https://placehold.it/1200x400?text=Another Image Maybe"}/
+          %img{:alt => "Image", :src => asset_path('back-1.jpg')}/
           .carousel-caption
             %h3= I18n.t 'act_name_2'
             %p= I18n.t 'act_desc_2'
             %p= I18n.t 'act_time_2'
             %p= I18n.t 'act_location_2'
         .item
-          %img{:alt => "Image", :src => "https://placehold.it/1200x400?text=Another Image Maybe"}/
+          %img{:alt => "Image", :src => asset_path('back-4.jpg')}/
           .carousel-caption
             %h3= I18n.t 'act_name_3'
             %p= I18n.t 'act_desc_3'
             %p= I18n.t 'act_time_3'
             %p= I18n.t 'act_location_3'
-            
+        .item
+          %img{:alt => "Image", :src => asset_path('back-2.jpg')}/
+          .carousel-caption
+            %h3= I18n.t 'act_name_3'
+            %p= I18n.t 'act_desc_3'
+            %p= I18n.t 'act_time_3'
+            %p= I18n.t 'act_location_3'
+           
         
       / Left and right controls
       %a.left.carousel-control{"data-slide" => "prev", :href => "#myActivities", :role => "button"}
