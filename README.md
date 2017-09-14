@@ -34,6 +34,9 @@ rake db:migrate
 ## Deployment
 
 Don't forget to run ```rake db:migrate``` on Heroku.
+```
+rake assets:precompile
+```
 
 ## Authors
 
