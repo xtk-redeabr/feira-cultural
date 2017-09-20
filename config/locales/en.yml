@@ -22,11 +22,11 @@
 en:
   hello: 'Hello world'
   new_member: 'Sign Up'
-  event_title: 'The Best of Brasil Festival'
-  event_subtitle: 'The culture, in all of its art forms, of love and of thought, throughout the ages has allowed man to be less enslaved.'
-  event_content_1: 'The object of this project is to raise awareness of the growing impact within the United States of the Brazilian culture, while concomitantly demonstrating American culture for an exchange of ideas among American and Brazilian students and professors, both native-born and immigrant.'
-  event_content_2: 'The Cultural Fair is a prime space to present aspects of Brazilian culture such as: Brazilian Folk Festivals (including dances and costumes), regional specialty dishes, religious culture and all other types of cultural demonstrations, further enhancing the appreciation of local attire and elevating same to the level of consciousness to lead to meaningful conversation on par with that of American culture.'
-  event_content_3: 'Within the Cultural Fair there will be the inaugural Social Film Festival with a showing of Brazilian films that have featured social phenomena such as drug consumption and trafficking, violence, xenophobia, gender norms, health, etc.'
+  event_title: 'The Best of Brazil'
+  event_subtitle: "BRAZILIAN AND AMERICAN CULTURAL FAIR"
+  event_content_1: "The Brazilian Cultural Fair is an initiative developed by the Aqui tem mais Brasil project, in partnership with ABR Radio, Vale do Rio Doce University (UNIVALE),State University of Massachusetts, Framingham State University, Adult Education Center of Cape Cod Community College, and Harvard University."
+  event_content_2: "With the aim of strengthening academic, social, and cultural relations between the United States and Brazil, the Cultural Fair presents the best of Brazil through exhibitions of arts and film, food, festivals, and ways of life. Highlighting the regional diversity of the Brazilian people, the Cultural Fair will foster an exchange of experiences among Americans and Brazilians, especially among young residents of Massachusetts."
+  event_content_3: "Massachusetts, as described by experts and researchers, is one of the two most important states in the U.S. States contributing to Brazil's growth and development. In this sense, we believe this initiative will enable a closer interaction between Brazilians and Americans, strengthening our ties of friendship, culture, leisure, and business."
   event_details: 'The event is expected to run from November 3-5, 2017 in Framingham, MA.'
   sign_up: 'Sign Up'
   signed_up_message_1: 'You have successfully registered.'
