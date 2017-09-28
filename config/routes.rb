@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'states/index'
+
+  get 'speakers/index'
+
   get 'thank_you/index'
   get 'activity/index'
   get 'welcome/index'
