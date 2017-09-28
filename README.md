@@ -37,9 +37,7 @@ Don't forget to run ```rake db:migrate``` on Heroku.
 
 ## Authors
 
-* **Rede ABR** - ** - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Rede ABR** - ** - [Denis Presciliano](https://github.com/DenisLP)
 
 ## License
 
