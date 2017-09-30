@@ -1,24 +1,3 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   hello: 'Hello world'
   new_member: 'Sign Up'
@@ -33,57 +12,57 @@ en:
   signed_up_message_2: 'Soon you will receive an email with more details from the director.'
   
   
-  act_first_day_date: 'Nov 2nd, 2017'
+  act_first_day_date: 'Nov 3rd, 2017'
   act_first_day_desc: 'Representantes de cada estado brasileiro serão acompanhados por um cidadão do estado de Massachusetts.'
   
-  act_day_1: 'Nov 2nd, 2017 - Thursday'
-  act_desc_1: 'Visita à Casa do Estado'
-  act_time_1: '9:00AM ~ 12:00PM'
-  act_location_1: 'Room'
+  act_day_1: 'Nov 3rd, 2017 - Thursday'
+  act_desc_1: 'Abertura oficial da feira com execução de hinos nacionais de Estados Unidos e Brasil. Participação de autoridades, professores, convidados e alunos de escolas públicas de Framingham.'
+  act_time_1: '9:00AM ~ 9:15AM'
+  act_location_1: ''
   
-  act_day_2: 'Nov 2nd, 2017 - Thursday'
-  act_desc_2: 'Visita ao Mercado Quincy'
-  act_time_2: '12:00PM ~ 3:00PM'
-  act_location_2: 'Room'
+  act_day_2: 'Nov 3rd, 2017 - Thursday'
+  act_desc_2: 'Apresentações artísticas/culturais através de representantes dos mais diversos estados do Brasil.'
+  act_time_2: '9:15AM ~ 12:00PM'
+  act_location_2: ''
   
-  act_day_3: 'Nov 2nd, 2017 - Thursday'
-  act_desc_3: 'Visita ao Museu'
-  act_time_3: '3:00PM ~ 6:00PM'
-  act_location_3: 'Room'
+  act_day_3: 'Nov 3rd, 2017 - Thursday'
+  act_desc_3: 'Lançamentos de livros com cobertura ao vivo pela Rede ABR direto da FSU'
+  act_time_3: '11:00PM ~ 12:00PM'
+  act_location_3: ''
   
-  act_day_4: 'Nov 2nd, 2017 - Thursday'
-  act_desc_4: 'Reunião e Coffee Break junto ao consulado brasileiro'
-  act_time_4: '7:00PM ~ 9:00PM'
+  act_day_4: 'Nov 3rd, 2017 - Thursday'
+  act_desc_4: 'Lanche com apresentação musical'
+  act_time_4: '12:00PM ~ 1:00PM'
   act_location_4: 'Room'
-  
-  
-  act_second_day_date: 'Nov 3rd, 2017'
-  act_second_day_desc: 'Representantes de cada estado brasileiro serão acompanhados por um cidadão do estado de Massachusetts.'
 
   act_day_5: 'Nov 3rd, 2017'
-  act_desc_5: 'Abertura da feira cultural com hinos nacionais de Estados Unidos e Brasil'
-  act_time_5: '9:00AM ~ 9:15AM'
-  act_location_5: 'Room'
+  act_desc_5: 'Descolamento para diferentes restaurantes em Framingham para apreciação da comida típica brasileira com entretenimento regional (música). Visitação à escola pública e biblioteca local.'
+  act_time_5: '1:00PM ~ 5:00PM'
+  act_location_5: ''
   
   act_day_6: 'Nov 3rd, 2017'
-  act_desc_6: 'Recepção de autoridades, professores, convidados e estudantes junto à feira cultural'
-  act_time_6: '9:15AM ~ 12:00PM'
-  act_location_6: 'Room'
+  act_desc_6: 'Cine social: Exibição de documentários – filmes de curta duração que retratam a experiência de imigrantes brasileiros.'
+  act_time_6: '6:00PM ~ 9:00PM'
+  act_location_6: ''
   
   act_day_7: 'Nov 3rd, 2017'
   act_desc_7: 'Apresentação Musical Brasileira'
-  act_time_7: '12:00AM ~ 13:00PM'
-  act_location_7: 'Room'
+  act_time_7: '12:00AM ~ 1:00PM'
+  act_location_7: ''
   
   act_day_8: 'Nov 3rd, 2017'
   act_desc_8: 'Deslocamento para diferentes restaurantes em Framingham para apreciação da comida e entretenimento regional brasileiro'
-  act_time_8: '13:00AM ~ 17:00PM'
-  act_location_8: 'Room'
+  act_time_8: '1:00PM ~ 5:00PM'
+  act_location_8: ''
   
   act_day_9: 'Nov 3rd, 2017'
-  act_desc_9: 'Filme da Universidade - FSU'
+  act_desc_9: 'Cine social: Exibição de documentários – filmes de curta duração que retratam a experiência de imigrantes brasileiros.'
   act_time_9: '6:00PM ~ 9:00PM'
-  act_location_9: 'Room'
+  act_location_9: ''
+  
+  
+  act_second_day_date: 'Nov 4th, 2017'
+  act_second_day_desc: 'Todos os eventos deste dia serão abertos ao público'
   
   
 
@@ -94,32 +73,32 @@ en:
   act_day_10: 'Nov 4th, 2017'
   act_desc_10: 'Apresentação dos seguintes estados brasileiros: Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará.'
   act_time_10: '9:00AM ~ 1:00PM'
-  act_location_10: 'Room'
+  act_location_10: ''
   
   act_day_11: 'Nov 4th, 2017'
   act_desc_11: 'Apresentação dos seguintes estados brasileiros: Paraíba, Paraná, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte, Rio Grande do Sul, Rondônia, Roraima, Santa Catarina, São Paulo, Sergipe, Tocantins.'
   act_time_11: '1:00PM ~ 6:00PM'
-  act_location_11: 'Room'
+  act_location_11: ''
   
   act_day_12: 'Nov 4th, 2017'
   act_desc_12: 'Cine Social: exibição de documentários - Filmes de curta duração que retratam a experiência de imigrantes brasileiros.'
   act_time_12: '7:00PM ~ 10:00PM'
-  act_location_12: 'Room'
+  act_location_12: ''
   
   act_day_13: 'Nov 4th, 2017'
   act_desc_13: 'Workshop em Harvard'
   act_time_13: '9:00AM ~ 2:00PM'
-  act_location_13: 'Harvard'
+  act_location_13: ''
   
   act_day_14: 'Nov 4th, 2017'
   act_desc_14: 'Horário livre'
   act_time_14: '2:00PM ~ 6:00PM'
-  act_location_14: 'Room'
+  act_location_14: ''
   
   act_day_15: 'Nov 4th, 2017'
-  act_desc_15: 'Evento de encerramento '
+  act_desc_15: 'Show musical de encerramento com mostra de talentos brasileiros que vivem nos EUA – FSU (Framingham State University) Tirar o Room e colocar FSU '
   act_time_15: '6:00PM ~ 9:00PM'
-  act_location_15: 'Local a ser confirmado'
+  act_location_15: ''
   
   
   
