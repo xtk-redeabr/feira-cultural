@@ -1,11 +1,17 @@
-.timeline {
-  list-style: none;
-  position: relative; }
-
 h1 {
   font-family: verdana, arial, helvetica, sans-serif; }
 
 .livros, p {
   text-align: left; }
+
+.timeline-body p {
+  text-align: left; }
+
+.people {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px; }
+
 
 /*# sourceMappingURL=speakers.css.map */

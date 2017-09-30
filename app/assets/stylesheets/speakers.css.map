@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,SAAU;EACR,UAAU,EAAE,IAAI;EAEhB,QAAQ,EAAE,QAAQ;;AAEpB,EAAG;EACD,WAAW,EAAE,qCAAqC;;AAIpD,UAAW;EACT,UAAU,EAAE,IAAI",
+"mappings": "AAAA,EAAG;EACD,WAAW,EAAE,qCAAqC;;AAIpD,UAAW;EACT,UAAU,EAAE,IAAI;;AAGlB,gBAAgB;EACd,UAAU,EAAE,IAAI",
 "sources": ["speakers.scss"],
 "names": [],
 "file": "speakers.css"

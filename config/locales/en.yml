@@ -11,6 +11,31 @@ en:
   signed_up_message_1: 'You have successfully registered.'
   signed_up_message_2: 'Soon you will receive an email with more details from the director.'
   
+
+  act_zero_day_date: 'Nov 2nd, 2017'
+  act_zero_day_desc: 'Representantes de cada estado brasileiro serão acompanhados por um cidadão do estado de Massachusetts.'
+  
+  act_day_00: 'Nov 2nd, 2017 - Thursday'
+  act_desc_00: 'Visita à Palacio do Governo'
+  act_time_00: '9:00AM ~ 12:00PM'
+  act_location_00: ''
+  
+  act_day_01: 'Nov 2nd, 2017 - Thursday'
+  act_desc_01: 'Visita ao Quincy Market'
+  act_time_01: '12:00PM ~ 3:00PM'
+  act_location_01: ''
+  
+  act_day_02: 'Nov 2nd, 2017 - Thursday'
+  act_desc_02: 'Visita ao Museu'
+  act_time_02: '3:00PM ~ 6:00PM'
+  act_location_02: ''
+  
+  act_day_03: 'Nov 2nd, 2017 - Thursday'
+  act_desc_03: 'Reunião e Coffee Break junto ao consulado brasileiro'
+  act_time_03: '7:00PM ~ 9:00PM'
+  act_location_03: 'Room'
+  
+  
   
   act_first_day_date: 'Nov 3rd, 2017'
   act_first_day_desc: 'Representantes de cada estado brasileiro serão acompanhados por um cidadão do estado de Massachusetts.'
@@ -31,12 +56,12 @@ en:
   act_location_3: ''
   
   act_day_4: 'Nov 3rd, 2017 - Thursday'
-  act_desc_4: 'Lanche com apresentação musical'
+  act_desc_4: 'Lanche com Apresentação Musical Brasileira'
   act_time_4: '12:00PM ~ 1:00PM'
   act_location_4: 'Room'
 
   act_day_5: 'Nov 3rd, 2017'
-  act_desc_5: 'Descolamento para diferentes restaurantes em Framingham para apreciação da comida típica brasileira com entretenimento regional (música). Visitação à escola pública e biblioteca local.'
+  act_desc_5: 'Deslocamento para diferentes restaurantes em Framingham para apreciação da comida típica brasileira com entretenimento regional (música). Visitação à escola pública e biblioteca local.'
   act_time_5: '1:00PM ~ 5:00PM'
   act_location_5: ''
   
@@ -45,29 +70,12 @@ en:
   act_time_6: '6:00PM ~ 9:00PM'
   act_location_6: ''
   
-  act_day_7: 'Nov 3rd, 2017'
-  act_desc_7: 'Apresentação Musical Brasileira'
-  act_time_7: '12:00AM ~ 1:00PM'
-  act_location_7: ''
-  
-  act_day_8: 'Nov 3rd, 2017'
-  act_desc_8: 'Deslocamento para diferentes restaurantes em Framingham para apreciação da comida e entretenimento regional brasileiro'
-  act_time_8: '1:00PM ~ 5:00PM'
-  act_location_8: ''
-  
-  act_day_9: 'Nov 3rd, 2017'
-  act_desc_9: 'Cine social: Exibição de documentários – filmes de curta duração que retratam a experiência de imigrantes brasileiros.'
-  act_time_9: '6:00PM ~ 9:00PM'
-  act_location_9: ''
-  
   
   act_second_day_date: 'Nov 4th, 2017'
   act_second_day_desc: 'Todos os eventos deste dia serão abertos ao público'
   
   
 
-  act_thrird_day_date: 'Nov 4th, 2017'
-  act_thrird_day_desc: 'Representantes de cada estado brasileiro serão acompanhados por um cidadão do estado de Massachusetts.'
   
   
   act_day_10: 'Nov 4th, 2017'
@@ -85,21 +93,23 @@ en:
   act_time_12: '7:00PM ~ 10:00PM'
   act_location_12: ''
   
-  act_day_13: 'Nov 4th, 2017'
-  act_desc_13: 'Workshop em Harvard'
-  act_time_13: '9:00AM ~ 2:00PM'
-  act_location_13: ''
-  
-  act_day_14: 'Nov 4th, 2017'
-  act_desc_14: 'Horário livre'
-  act_time_14: '2:00PM ~ 6:00PM'
-  act_location_14: ''
-  
   act_day_15: 'Nov 4th, 2017'
   act_desc_15: 'Show musical de encerramento com mostra de talentos brasileiros que vivem nos EUA – FSU (Framingham State University)'
   act_time_15: '6:00PM ~ 9:00PM'
   act_location_15: ''
   
+  act_thrird_day_date: 'Nov 5th, 2017'
+  act_thrird_day_desc: 'Representantes de cada estado brasileiro serão acompanhados por um cidadão do estado de Massachusetts.'
+  
+  act_day_16: 'Nov 5th, 2017'
+  act_desc_16: 'Workshop em Harvard'
+  act_time_16: '9:00AM ~ 2:00PM'
+  act_location_16: ''
+  
+  act_day_17: 'Nov 5th, 2017'
+  act_desc_17: 'Horário livre'
+  act_time_17: '2:00PM ~ 6:00PM'
+  act_location_17: ''
   
   
   about_p1: 'A Feira Cultural Brasileira e Americana busca fortalecer a cooperação cultural e a compreensão entre a comunidade não-imigrante (inclusive a acadêmica) e a comunidade brasileira que vive nos Estados Unidos. Esta Feira tem por objetivo mostrar vários aspectos da cultura brasileira (incluindo festivais folclóricos, comidas regionais e demonstrações culturais), demografia e economia, além de promover o envolvimento transcultural.'

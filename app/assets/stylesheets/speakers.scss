@@ -1,13 +1,12 @@
-.timeline {
-  list-style: none;
-  // padding: 20px 0 20px;
-  position: relative;
-}
 h1 {
   font-family: verdana, arial, helvetica, sans-serif;
 }
 
 
 .livros, p {
+  text-align: left;
+}
+
+.timeline-body p{
   text-align: left;
 }

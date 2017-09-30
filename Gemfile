@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'haml'
 gem 'haml-rails'
-gem 'bootstrap-sass'
+# gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 # gem 'font-awesome-sass'
 gem 'pg'
