@@ -33,6 +33,9 @@ h1 {
 .timeline > li:after {
   clear: both; }
 
+.timeline-panel {
+  border: 3px solid #ccc; }
+
 .timeline > li > .timeline-panel {
   border: 1px solid #d4d4d4;
   border-radius: 2px;
